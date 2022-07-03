@@ -1,0 +1,36 @@
+.app {
+  width: 100vw;
+  height: 100vh;
+}
+
+.content {
+  width: 100%;
+  height: 92vh;
+}
+
+.tabBar {
+  height: 8vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  // align-items: center;
+  
+  background-color: aliceblue;
+}
+blockquote {
+  margin: 22px 0;
+  padding: 12px 12px;
+  border-left: 4px solid #26c6da;
+  background: rgba(77, 208, 225, 0.15);
+  position: relative;
+}
+mark {
+  color: #ff502c;
+  border-bottom: 1px solid #ff502c;
+  font-weight: 400;
+  text-decoration: none;
+  margin: 0 4px;
+  padding: 0.065em 0.4em;
+  background-color: #fff5f5 !important;
+}

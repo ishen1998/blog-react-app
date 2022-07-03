@@ -1,0 +1,66 @@
+img {
+  width: 100%;
+}
+
+.hljs {
+  width: auto;
+  height: auto;
+  overflow: auto;
+  padding: 15px;
+}
+
+
+.detail-container {
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+  .main {
+    border-radius: 16px;
+    word-break: break-word;
+    overflow-x: hidden;
+    width: 100%;
+    padding: 5px 1rem;
+    margin-right: 1%;
+    box-sizing: border-box;
+
+    .info {
+      display: flex;
+      flex-direction: column;
+
+      .author {
+        display: flex;
+        font-size: 18px;
+        font-weight: 700;
+        align-items: center;
+        padding: 5px 0;
+
+        >img {
+          width: 40px;
+          height: 40px;
+          margin-right: 8px;
+        }
+      }
+
+      .other {
+        font-size: 14px;
+        color: #909090;
+      }
+    }
+
+
+  }
+
+  .content {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+
+    p {
+      font-size: 15px;
+
+    }
+  }
+
+}
